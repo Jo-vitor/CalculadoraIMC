@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    background: rgba(255, 255, 255, 0.358);
+    box-shadow: 0 5px 32px 0 rgba(46, 46, 46, 0.37);
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 200px;  
+    border: 1px solid rgba(255, 255, 255, 0.18); 
+    height: 220px;
+    width: 300px;
+}
+.container h2{
+    margin: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.container form{
+    display: grid;
+    padding: 0 20px;
+    padding-top: 10px;
+    gap: 10px;
+}
+
+.container form input{
+    margin-right: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.container form input:hover{
+    background-color: rgba(0, 234, 255, 0.401);
+}
+
+.container form button{
+    margin: 0 80px;
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(32, 55, 72);
+    border: 1px solid black;
+    border-radius: 10px;
+}
