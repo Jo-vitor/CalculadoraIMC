@@ -1,0 +1,18 @@
+.container{
+    width: 400px;
+}
+.container table{
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 350px;
+    border-collapse: collapse;
+}
+.container table tr td{
+    border: 1px solid black;
+}
+.cor-azul{
+    color: rgb(31, 94, 175);
+}
+.fundo-azul{
+    background-color: rgba(0, 234, 255);
+}
